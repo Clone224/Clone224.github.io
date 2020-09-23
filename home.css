@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+a:visited {
+    color: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav ul {
+    overflow: hidden;
+    background-color: #4F012E;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.nav li {
+    float: right;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+#heading {
+    font-size: 25px;
+    float: left;
+}
+
+#page {
+    padding-top: 25px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.banner {
+    background-image: url("https://static.wixstatic.com/media/fffda4_4a1732443dc543b2a7205a1f4ed02785~mv2_d_3362_2960_s_4_2.jpg/v1/fill/w_560,h_470,al_c,q_80,usm_0.66_1.00_0.01/fffda4_4a1732443dc543b2a7205a1f4ed02785~mv2_d_3362_2960_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 68px;
+}
+
+.spread {
+    background-color: rgba(100, 0, 116, 0.3);
+    height: 555px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#stext {
+    top: 250px;
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+
+#stext h2 {
+    font-weight: bold;
+    font-size:70px;
+}
+
+#stext p {
+    font-size: 35px;
+}
+
+.gallery {
+    position: absolute;
+    top: 58%;
+    height: 310px;
+    background-color: white;
+    width: 100%
+}
+
+.about {
+    position: absolute;
+    top: 90.58%;
+    height: 500px;
+    background-color: purple;
+    width: 100%
+}
