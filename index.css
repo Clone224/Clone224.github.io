@@ -116,29 +116,30 @@ a:visited {
 }
 
 .atext {
-    width: 60%;
+    width: 50%;
     font-size: 160%;
     position: relative;
     float: right;
     color: white;
-    right: 9%;
-    top: 40%;
+    top: 35%;
+    padding: 0% 10%;
 }
 
 .atext h2 {
     text-decoration: underline;
 }
 
-.aimg {
+.apic {
     float: left;
-    position: relative;
-    left: 12%;
+    padding: 0% 10%;
+    padding-right: 5%;
 }
 
-.aimg img {
-    width: 15.0%;
+.apic img {
+    width: 25.0%;
     height: auto;
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    float: left;
 }
