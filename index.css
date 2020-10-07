@@ -88,7 +88,7 @@ a:visited {
 .gallery {
     position: absolute;
     top: 58%;
-    height: 45%;
+    height: 48%;
     background-color: white;
     width: 100%;
     display: flex;
@@ -109,7 +109,7 @@ a:visited {
 
 .about {
     position: absolute;
-    top: 100%;
+    top: 105%;
     height: 75%;
     background-color: purple;
     width: 100%;
