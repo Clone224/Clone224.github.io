@@ -56,21 +56,21 @@ a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 70%;
     position: fixed;
     top: 68px;
 }
 
 .spread {
     background-color: rgba(100, 0, 116, 0.3);
-    height: 555px;
-    position: relative;
+    height: 58%;
+    position: absolute;
     width: 100%;
     text-align: center;
 }
 
 #stext {
-    top: 250px;
+    top: 50%;
     width: 100%;
     color: white;
     position: absolute;
@@ -88,7 +88,7 @@ a:visited {
 .gallery {
     position: absolute;
     top: 58%;
-    height: 310px;
+    height: 32.5%;
     background-color: white;
     width: 100%
 }
@@ -98,5 +98,21 @@ a:visited {
     top: 90.58%;
     height: 500px;
     background-color: purple;
-    width: 100%
+    width: 100%;
+}
+
+.atext {
+    width: 40%;
+    font-size: 180%;
+    position: relative;
+    right: 20%;
+    float: right;
+    top: 20%;
+}
+
+.aimg {
+    float: left;
+    position: relative;
+    left: 27%;
+    top: 18%;
 }
