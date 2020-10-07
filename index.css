@@ -90,7 +90,21 @@ a:visited {
     top: 58%;
     height: 32.5%;
     background-color: white;
-    width: 100%
+    width: 100%;
+    display: flex;
+}
+
+.gimg {
+    position: relative;
+    flex: 33.3%;
+    padding: 2%;
+    text-align: center;
+}
+
+.gimg img {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
 
 .about {
@@ -102,22 +116,27 @@ a:visited {
 }
 
 .atext {
-    width: 40%;
-    font-size: 180%;
+    width: 60%;
+    font-size: 160%;
     position: relative;
     float: right;
     color: white;
-    right: 15%;
-    top: 17%;
+    right: 9%;
+    top: 25%;
+}
+
+.atext h2 {
+    text-decoration: underline;
 }
 
 .aimg {
     float: left;
     position: relative;
-    left: 25%;
-    top: 18%;
-    padding: 0;
+    left: 12%;
+    top: 23%;
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    width: 15%;
+    height: auto;
 }
