@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+a:visited {
+    color: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav ul {
+    overflow: hidden;
+    background-color: #4F012E;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.nav li {
+    float: right;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+#heading {
+    font-size: 25px;
+    float: left;
+}
