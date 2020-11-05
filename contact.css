@@ -44,3 +44,43 @@ a:visited {
     font-size: 25px;
     float: left;
 }
+
+.contact {
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    position: relative;
+    top: 30%;
+    padding-right: 45%;
+    padding-left: 13%;
+    font-size: 150%;
+    color: white;
+}
+
+.social {
+    position: relative;
+    top: 32%;
+    padding-left: 13%;
+}
+
+.social img {
+    position: relative;
+    width: 5%;
+    height: auto;
+    padding-right: 1%;
+}
+
+.pic img {
+    position: relative;
+    float: right;
+    width: 30%;
+    height: auto;
+    right: 20%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
