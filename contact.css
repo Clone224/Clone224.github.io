@@ -45,6 +45,12 @@ a:visited {
     float: left;
 }
 
+#page {
+    padding-top: 25px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 .contact {
     position: absolute;
     background-color: purple;
