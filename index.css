@@ -105,6 +105,14 @@ a:visited {
     border-style: solid;
     border-color: black;
     border-width: 5px;
+    height: 80%;
+    width: auto;
+}
+
+.gimg  p {
+    font-size: 150%;
+    color: purple;
+    padding-top: 2%;
 }
 
 .about {
