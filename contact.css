@@ -61,6 +61,10 @@ a:visited {
     color: white;
 }
 
+.info h2 {
+    text-decoration: underline;
+}
+
 .social {
     position: relative;
     top: 32%;

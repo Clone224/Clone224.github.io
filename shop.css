@@ -63,6 +63,10 @@ a:visited {
     color: white;
 }
 
+.stext h2 {
+    text-decoration: underline;
+}
+
 .simg img{
     position: relative;
     float: right;
@@ -78,15 +82,15 @@ a:visited {
     display: block;
     padding: 0px;
     height: auto;
-    border-style: solid;
+    border-radius: 10%;
     border-color: black;
-    border-width: 5px;
-    border-radius: 30%;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .button {
     position: relative;
-    top: 35%;
-    left: 17%;
-    width: 20%;
+    top: 32%;
+    padding-left: 5%;
+    width: 10%;
 }
