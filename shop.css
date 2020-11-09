@@ -62,7 +62,7 @@ a:visited {
     position: relative;
     top: 30%;
     padding-right: 45%;
-    padding-left: 5%;
+    padding-left: 10%;
     font-size: 150%;
     float: left;
     color: white;
@@ -77,7 +77,8 @@ a:visited {
     float: right;
     width: 30%;
     height: auto;
-    right: 10%;
+    margin-top: 2%;
+    right: 15%;
     border-style: solid;
     border-color: black;
     border-width: 5px;
@@ -86,7 +87,7 @@ a:visited {
 .button {
     position: relative;
     top: 32%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .button img {
     width: 10%;
